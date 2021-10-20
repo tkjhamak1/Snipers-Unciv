@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Explorer",		
+        "unitType": "Scout",		
+        "replaces": "Scout",
+        "movement": 2,		
+        "strength": 5,		
+        "cost": 25,		
+        "obsoleteTech": 
+        "Scientific Theory",		
+        "upgradesTo": "Marksman",
+        "uniques": ["May upgrade to [Archer] through ruins-like effects"],		
+        "promotions": ["Ignore terrain cost"],		
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Marksman",
+        "unitType": "Ranged",
+        "range": 2,		
+        "movement": 2,		
+        "strength": 20,		
+        "rangedStrength": 30,		
+        "cost": 225,		
+        "requiredTech": "Gunpowder",		
+        "uniques": ["[+1] Sight","Can move after attacking"],
+        "upgradesTo": "Sniper",		
+        "obsoleteTech": "Ballistics",		
+        "attackSound": "shot"
+    },
+    {
+        "name": "Sniper",
+        "unitType": "Ranged",
+        "range": 3,		
+        "movement": 2,		
+        "strength": 40,		
+        "rangedStrength": 35,		
+        "cost": 350,		
+        "requiredTech": "Ballistics",		
+        "uniques": ["[+2] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units"],
+        "attackSound": "shot"
+    }
+]
