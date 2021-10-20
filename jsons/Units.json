@@ -6,8 +6,7 @@
         "movement": 2,		
         "strength": 5,		
         "cost": 25,		
-        "obsoleteTech": 
-        "Scientific Theory",		
+        "obsoleteTech": "Gunpowder",		
         "upgradesTo": "Marksman",
         "uniques": ["May upgrade to [Archer] through ruins-like effects"],		
         "promotions": ["Ignore terrain cost"],		
@@ -36,7 +35,7 @@
         "rangedStrength": 35,		
         "cost": 350,		
         "requiredTech": "Ballistics",		
-        "uniques": ["[+2] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units"],
+        "uniques": ["[+2] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units>"],
         "attackSound": "shot"
     }
 ]
