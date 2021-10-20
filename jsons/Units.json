@@ -1,14 +1,12 @@
 [
     {
         "name": "Explorer",		
-        "unitType": "Scout",		
-        "replaces": "Scout",
+        "unitType": "Scout",
         "movement": 2,		
         "strength": 5,		
         "cost": 25,		
         "obsoleteTech": "Gunpowder",		
         "upgradesTo": "Marksman",
-        "uniques": ["May upgrade to [Archer] through ruins-like effects"],		
         "promotions": ["Ignore terrain cost"],		
         "attackSound": "nonmetalhit"
     },
