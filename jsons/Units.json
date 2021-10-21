@@ -37,6 +37,7 @@
         "cost": 350,		
         "requiredTech": "Ballistics",		
         "uniques": ["[+1] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>"],
+        "upgradesTo": "Ghost",
         "attackSound": "shot"
     },
     {
