@@ -4,12 +4,13 @@
         "unitType": "Scout",
         "movement": 2,		
         "strength": 5,		
-        "cost": 25,		
+        "rangedStrength": 5,
+        "cost": 25,	
         "obsoleteTech": "Gunpowder",
         "uniques": ["May upgrade to [Archer] through ruins-like effects"],
         "upgradesTo": "Marksman",
         "promotions": ["Ignore terrain cost"],		
-        "attackSound": "nonmetalhit"
+        "attackSound": "arrow"
     },
     {
         "name": "Marksman",
@@ -22,6 +23,7 @@
         "requiredTech": "Gunpowder",		
         "uniques": ["[+1] Sight","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>"],
         "upgradesTo": "Sniper",		
+        "promotions": ["Ignore terrain cost"],
         "obsoleteTech": "Ballistics",		
         "attackSound": "shot"
     },
@@ -35,6 +37,18 @@
         "cost": 350,		
         "requiredTech": "Ballistics",		
         "uniques": ["[+1] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>"],
+        "attackSound": "shot"
+    },
+    {
+        "name": "Ghost",
+        "unitType": "Ranged Gunpowder",
+        "range": 3,		
+        "movement": 2,		
+        "strength": 55,		
+        "rangedStrength": 55,		
+        "cost": 425,		
+        "requiredTech": "Computers",		
+        "uniques": ["[+1] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>","Invisible to non-adjacent units"],
         "attackSound": "shot"
     }
 ]
