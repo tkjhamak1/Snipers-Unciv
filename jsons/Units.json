@@ -2,6 +2,7 @@
     {
         "name": "Explorer",		
         "unitType": "Scout",
+        "range": 1,
         "movement": 2,		
         "strength": 5,		
         "rangedStrength": 5,
