@@ -1,16 +1,16 @@
 [
-  {
-	      	"name": "Scout",
-								"unitType": "Scout",
-	      	"movement": 2,
-								"strength": 5,
-								"cost": 25,
-								"obsoleteTech": "Scientific Theory",
-								"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-								"upgradesTo": "Explorer"
-	     		"promotions": ["Ignore terrain cost"],
-	     		"attackSound": "nonmetalhit"
-    	},
+{
+"name": "Scout",
+"unitType": "Scout",
+"movement": 2,
+"strength": 5,
+"cost": 25,
+"obsoleteTech": "Scientific Theory",
+"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+"upgradesTo": "Explorer"
+"promotions": ["Ignore terrain cost"],
+"attackSound": "nonmetalhit"
+},
 
     {
         "name": "Explorer",		
