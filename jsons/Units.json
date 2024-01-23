@@ -26,7 +26,7 @@
         "uniques": ["[+1] Sight","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>"],
         "upgradesTo": "Sniper",		
         "promotions": ["Ignore terrain cost"],
-        "obsoleteTech": "Ballistics",		
+        "obsoleteTech": "Rifling",		
         "attackSound": "shot"
     },
     {
@@ -37,9 +37,10 @@
         "strength": 40,		
         "rangedStrength": 35,		
         "cost": 350,		
-        "requiredTech": "Ballistics",		
+        "requiredTech": "Rifling",		
         "uniques": ["[+1] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>"],
         "upgradesTo": "Ghost",
+        "obsoleteTech": "Computers",
         "attackSound": "shot"
     },
     {
