@@ -1,16 +1,16 @@
 [
-{
-"name": "Scout",
-"unitType": "Scout",
-"movement": 2,
-"strength": 5,
-"cost": 25,
-"obsoleteTech": "Scientific Theory",
-"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-"upgradesTo": "Explorer"
-"promotions": ["Ignore terrain cost"],
-"attackSound": "nonmetalhit"
-},
+    {
+        "name": "Scout",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 5,
+        "cost": 25,
+        "obsoleteTech": "Scientific Theory",
+        "uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+        "upgradesTo": "Explorer"
+        "promotions": ["Ignore terrain cost"],
+        "attackSound": "nonmetalhit"
+    },
 
     {
         "name": "Explorer",		
@@ -22,9 +22,22 @@
         "cost": 25,	
         "requiredTech": "Archery",
         "obsoleteTech": "Gunpowder",
+        "uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
         "upgradesTo": "Marksman",
         "promotions": ["Ignore terrain cost"],		
         "attackSound": "arrow"
+    },
+    {
+        "name": "Crossbowman",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 13,
+        "rangedStrength": 18,
+        "cost": 120,
+        "requiredTech": "Machinery",
+        "upgradesTo": "Marksman",
+        "obsoleteTech": "Rifling",
+        "attackSound": "crossbow"
     },
     {
         "name": "Marksman",
@@ -35,10 +48,10 @@
         "rangedStrength": 18,		
         "cost": 225,		
         "requiredTech": "Gunpowder",		
-        "uniques": ["[+1] Sight","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>"],
+        "uniques": ["[+1] Sight","[-100]% <vs cities> <when attacking>""Never appears as a Barbarian unit"],
         "upgradesTo": "Sniper",		
         "promotions": ["Ignore terrain cost"],
-        "obsoleteTech": "Rifling",		
+        "obsoleteTech": "Rifling",
         "attackSound": "shot"
     },
     {
@@ -50,8 +63,9 @@
         "rangedStrength": 35,		
         "cost": 350,		
         "requiredTech": "Rifling",		
-        "uniques": ["[+1] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>"],
+        "uniques": ["[+1] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-200]% <vs cities> <when attacking>","Never appears as a Barbarian unit"],
         "upgradesTo": "Ghost",
+        "promotions": ["Ignore terrain cost"],
         "obsoleteTech": "Computers",
         "attackSound": "shot"
     },
@@ -64,7 +78,8 @@
         "rangedStrength": 55,		
         "cost": 425,		
         "requiredTech": "Computers",		
-        "uniques": ["[+1] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-100]% <vs cities> <when attacking>","Invisible to non-adjacent units"],
+        "uniques": ["[+1] Sight","Can move after attacking","[+100]% Strength <vs [Gunpowder] units> <when attacking>","[-200]% <vs cities> <when attacking>","Invisible to non-adjacent units","Never appears as a Barbarian unit"],
+        "promotions": ["Ignore terrain cost"],
         "attackSound": "shot"
     }
 ]
